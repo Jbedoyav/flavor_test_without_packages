@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+          {
+            "name": "Exito Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "exitoDev", "--target", "lib/config/environments/main_development.dart"]
+          },
+          {
+            "name": "Exito Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "exitoprod", "--target", "lib/config/environments/main_production.dart"]
+
+          },
+          {
+            "name": "Exito QA",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "exitoQA", "--target", "lib/config/environments/main_staging.dart"]
+
+          },
+          {
+            "name": "Carulla Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "carullaDev", "--target", "lib/config/environments/main_development.dart"]
+
+          },
+          {
+            "name": "Carulla Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "carullaProd", "--target", "lib/config/environments/main_production.dart"]
+
+          },
+          {
+            "name": "Carulla Staging",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "carullaQA", "--target", "lib/config/environments/main_staging.dart"]
+
+          }
+        ]
+      
+}

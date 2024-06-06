@@ -50,6 +50,33 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    flavorDimensions "default"
+    productFlavors {
+        exitoDev{
+            dimension "default"
+            applicationId "com.example.flavors_test.exitoDev"
+        }
+        exitoQA{
+            dimension "default"
+            applicationId "com.example.flavors_test.exitoQA"
+        }
+        exitoProd{
+            dimension "default"
+            applicationId "com.example.flavors_test.exitoProd"
+        }
+        carullaDev{
+            dimension "default"
+            applicationId "com.example.flavors_test.carullaDev"
+        }
+        carullaQA{
+            dimension "default"
+            applicationId "com.example.flavors_test.carullaQA"
+        }
+        carullaProd{
+            dimension "default"
+            applicationId "com.example.flavors_test.carullaProd"
+        }
+    }
 
     buildTypes {
         release {
