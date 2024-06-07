@@ -8,7 +8,7 @@
             "name": "Exito Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exito", "--target", "lib/main.dart"]
+            "args": ["--flavor", "exito_prod", "--target", "lib/main.dart"]
 
           },
           {
@@ -42,7 +42,7 @@
             "name": "Carulla Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carulla", "--target", "lib/main.dart"]
+            "args": ["--flavor", "carulla_prod", "--target", "lib/main.dart"]
 
           },
          

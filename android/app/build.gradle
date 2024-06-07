@@ -53,7 +53,7 @@ android {
     flavorDimensions "apps"
     productFlavors {
 
-        exito{
+        exito_prod{
             dimension "apps"
             applicationId "com.example.flavors_test.exito"
             applicationIdSuffix ".exito"
@@ -71,7 +71,7 @@ android {
             applicationIdSuffix ".exito_qa"
             resValue "string", "app_name", "Exito QA"
         }
-        carulla{
+        carulla_prod{
             dimension "apps"
             applicationId "com.example.flavors_test.carulla"
             applicationIdSuffix ".carulla"
