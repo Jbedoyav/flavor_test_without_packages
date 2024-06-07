@@ -8,41 +8,41 @@
             "name": "Exito Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exito_prod", "--target", "lib/main.dart"]
+            "args": ["--flavor", "exito_prod", "--target", "lib/config/environments/exito/main_exito_prod.dart"]
 
           },
           {
             "name": "Exito Dev",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exito_dev", "--target", "lib/main.dart"]
+            "args": ["--flavor", "exito_dev", "--target", "lib/config/environments/exito/main_exito_dev.dart"]
           },
           {
             "name": "Exito QA",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exito_qa", "--target", "lib/main.dart"]
+            "args": ["--flavor", "exito_qa", "--target", "lib/config/environments/exito/main_exito_qa.dart"]
 
           },
           {
             "name": "Carulla Dev",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carulla_dev", "--target", "lib/main.dart"]
+            "args": ["--flavor", "carulla_dev", "--target", "lib/config/environments/carulla/main_carulla_dev.dart"]
 
           },
           {
             "name": "Carulla QA",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carulla_qa", "--target", "lib/main.dart"]
+            "args": ["--flavor", "carulla_qa", "--target", "lib/config/environments/carulla/main_carulla_qa.dart"]
 
           },
           {
             "name": "Carulla Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carulla_prod", "--target", "lib/main.dart"]
+            "args": ["--flavor", "carulla_prod", "--target", "lib/config/environments/carulla/main_carulla_prod.dart"]
 
           },
          
