@@ -5,46 +5,47 @@
         "version": "0.2.0",
         "configurations": [
           {
-            "name": "Exito Dev",
-            "request": "launch",
-            "type": "dart",
-            "args": ["--flavor", "exitoDev", "--target", "lib/config/environments/main_development.dart"]
-          },
-          {
             "name": "Exito Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exitoprod", "--target", "lib/config/environments/main_production.dart"]
+            "args": ["--flavor", "exito", "--target", "lib/main.dart"]
 
+          },
+          {
+            "name": "Exito Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "exito_dev", "--target", "lib/main.dart"]
           },
           {
             "name": "Exito QA",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "exitoQA", "--target", "lib/config/environments/main_staging.dart"]
+            "args": ["--flavor", "exito_qa", "--target", "lib/main.dart"]
 
           },
           {
             "name": "Carulla Dev",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carullaDev", "--target", "lib/config/environments/main_development.dart"]
+            "args": ["--flavor", "carulla_dev", "--target", "lib/main.dart"]
+
+          },
+          {
+            "name": "Carulla QA",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "carulla_qa", "--target", "lib/main.dart"]
 
           },
           {
             "name": "Carulla Prod",
             "request": "launch",
             "type": "dart",
-            "args": ["--flavor", "carullaProd", "--target", "lib/config/environments/main_production.dart"]
+            "args": ["--flavor", "carulla", "--target", "lib/main.dart"]
 
           },
-          {
-            "name": "Carulla Staging",
-            "request": "launch",
-            "type": "dart",
-            "args": ["--flavor", "carullaQA", "--target", "lib/config/environments/main_staging.dart"]
-
-          }
+         
         ]
       
 }

@@ -50,32 +50,46 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
-    flavorDimensions "default"
+    flavorDimensions "apps"
     productFlavors {
-        exitoDev{
-            dimension "default"
-            applicationId "com.example.flavors_test.exitoDev"
+
+        exito{
+            dimension "apps"
+            applicationId "com.example.flavors_test.exito"
+            applicationIdSuffix ".exito"
+            resValue "string", "app_name", "Exito"
         }
-        exitoQA{
-            dimension "default"
-            applicationId "com.example.flavors_test.exitoQA"
+        exito_dev{
+            dimension "apps"
+            applicationId "com.example.flavors_test.exito_dev"
+            applicationIdSuffix ".exito_dev"
+            resValue "string", "app_name", "Exito Dev"
         }
-        exitoProd{
-            dimension "default"
-            applicationId "com.example.flavors_test.exitoProd"
+        exito_qa{
+            dimension "apps"
+            applicationId "com.example.flavors_test.exito_qa"
+            applicationIdSuffix ".exito_qa"
+            resValue "string", "app_name", "Exito QA"
         }
-        carullaDev{
-            dimension "default"
-            applicationId "com.example.flavors_test.carullaDev"
+        carulla{
+            dimension "apps"
+            applicationId "com.example.flavors_test.carulla"
+            applicationIdSuffix ".carulla"
+            resValue "string", "app_name", "Carulla "
         }
-        carullaQA{
-            dimension "default"
-            applicationId "com.example.flavors_test.carullaQA"
+         carulla_dev{
+            dimension "apps"
+            applicationId "com.example.flavors_test.carulla_dev"
+            applicationIdSuffix ".carulla_dev"
+            resValue "string", "app_name", "Carulla Dev"
         }
-        carullaProd{
-            dimension "default"
-            applicationId "com.example.flavors_test.carullaProd"
+        carulla_qa{
+            dimension "apps"
+            applicationId "com.example.flavors_test.carulla_qa"
+            applicationIdSuffix ".carulla_qa"
+            resValue "string", "app_name", "Carulla QA"
         }
+ 
     }
 
     buildTypes {
